@@ -12,8 +12,60 @@ print(fruit[0:3:2])  # apple
 
 # accesing with the for loop 
 
-for x in fruit:
-    print(x) 
+for fruits in fruit:
+    print(fruits) 
 
-print(dir(fruit))  # to see the methods that can be used with the list
-print(help(fruit))  # to see the methods that can be used with the list with its description
+# print(dir(fruit))  # to see the methods that can be used with the list
+# print(help(fruit))  # to see the methods that can be used with the list with its description
+
+#in operator 
+ 
+print("apple" in fruit)  # ANS IS IN BOOLEAN TRUE
+
+#CHANGE THE VALUE OF THE LIST
+fruit[0] = "orange"
+print(fruit)  # ['orange', 'banana', 'cherry']
+
+#APPENDD THE ELEMENT IN THE LIST
+
+fruit.append("mango") 
+
+# REMOVE THE ELEMENT FROM THE LIST
+
+fruit.remove("banana")
+print(fruit)  # ['orange', 'cherry', 'mango']
+
+# INSERT THE ELEMENT IN THE LIST
+
+fruit.insert(1, "banana") 
+
+#sort method in the list 
+
+fruit.sort()
+
+#reverse method in the list
+
+fruit.reverse() 
+
+#fruit.clear()  # to clear the list
+
+print(fruit.index("mango"))  # to get the index of the element
+
+print(fruit.count("banana"))  # to get the count of the element
+
+# COPY THE LIST
+
+fruit2 = fruit.copy()
+
+
+
+
+#############    SETS    ####################
+
+
+# SETS ARE UNORDERED AND UNINDEXED AND NO DUPLICATES
+
+fruit = {"apple", "banana", "cherry"}
+
+print(fruit)  # unoredered print 
+
