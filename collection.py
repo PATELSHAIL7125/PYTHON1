@@ -69,3 +69,23 @@ fruit = {"apple", "banana", "cherry"}
 
 print(fruit)  # unoredered print 
 
+#pop method in the set
+
+fruit.pop()  # it will remove the random element from the WHICH WILL BE REMOVED
+
+
+
+
+#############  TUPLES    ####################
+
+# TUPLES ARE ORDERED AND UNCHANGABLES AND ALLOW DUPLICATES
+
+# tuples are faster than the other 
+
+# we have limited methods in the tuples
+
+fruit = ("apple", "banana", "cherry")
+
+print(fruit)  # ('apple', 'banana', 'cherry')
+
+#index method , count method and length method are used in the tuples 
