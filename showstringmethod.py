@@ -1,0 +1,1 @@
+print(help(str))#its give all the method of string
