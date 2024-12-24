@@ -30,3 +30,6 @@ shipping_lable("Dr","Spongebob","Squarepants",
                country="USA",
                city="shinigan",
                zip="12345")
+
+#ARBITAARY ARGUMENTS
+
