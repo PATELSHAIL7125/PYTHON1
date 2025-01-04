@@ -29,4 +29,4 @@ print(f"price2 :{price2:,}")
 
 #we use many format specifer at a same time 
 
-print(f"price2:{price1:,.2f}")
+print(f"price2:{price2:,.2f}")
