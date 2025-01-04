@@ -19,7 +19,7 @@ def day_of_week(day):
             print("Saturday")
         case 7:
             print("Sunday")
-        case _:     # it is a wildcard stement like a default statement
+        case _:     # it is a wildcard statement like a default statement
             print("Invalid day")
 
 day_of_week(3)

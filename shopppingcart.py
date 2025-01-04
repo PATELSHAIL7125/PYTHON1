@@ -9,5 +9,11 @@ while True:
    if food== "q":
       break
    else:
-      prices += float(input("Enter the {food} price: "))
+      prices += int(input("Enter the {food} price: "))
       foods.append(food)
+         
+
+
+      
+
+   
